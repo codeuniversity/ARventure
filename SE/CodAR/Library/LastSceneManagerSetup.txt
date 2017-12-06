@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Scenes/KeyLock Logic.unity
+  isLoaded: 1
+  isActive: 1
