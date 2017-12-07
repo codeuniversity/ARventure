@@ -51,18 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
-     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
-     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
-     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <Compile Include="Assets\ZZZ_Import\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
+     <None Include="Assets\ZZZ_Import\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\ZZZ_Import\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\ZZZ_Import\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+     <None Include="Assets\ZZZ_Import\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
+     <None Include="Assets\ZZZ_Import\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\ZZZ_Import\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\ZZZ_Import\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\ZZZ_Import\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\ZZZ_Import\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+     <None Include="Assets\ZZZ_Import\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
+     <None Include="Assets\ZZZ_Import\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
