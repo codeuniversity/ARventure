@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
 	public bool items;
 	public bool progression;
+	public int money = 0;
 
+	public Text text;
 
 	void Start() {
+
 		if (!PlayerPrefs.HasKey ("firstrun")) {
 			
 			PlayerPrefs.SetInt ("firstrun", 1);
@@ -28,7 +33,12 @@ public class GameController : MonoBehaviour {
 
 			progression = GetValue ("progression");
 
+			money = PlayerPrefs.GetInt ("money");
+
 		}
+		text.text = money.ToString();
+
+
 	}
 
 
@@ -39,12 +49,17 @@ public class GameController : MonoBehaviour {
 		return (PlayerPrefs.GetInt (key) != 0);
 	}
 
+
 	public bool CheckItem(string name) {
 		if (name == "screwdriver" && items) {
 			return true;
 		} else {
 			return false;
 		}
+	}
+
+	public void SaveMoney() {
+		PlayerPrefs.SetInt ("money", money);
 	}
 
 

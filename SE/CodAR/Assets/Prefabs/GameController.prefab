@@ -53,3 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: 0
   progression: 0
+  money: 0
