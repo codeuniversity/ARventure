@@ -11,6 +11,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/03_Coin_Game.unity
     guid: eedff701dc9a14c9a939bf2f9c2c908d
-  - enabled: 1
-    path: Assets/_Scenes/Test Scenes/Camtest.unity
-    guid: ed62ec8320a664556ac98b36697ec8e7

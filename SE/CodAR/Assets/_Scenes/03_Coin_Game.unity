@@ -500,6 +500,11 @@ Prefab:
       propertyPath: arCam
       value: 
       objectReference: {fileID: 1570974389}
+    - target: {fileID: 114363497491084572, guid: b9b5b45eb67df4081bb16508a4e8a690,
+        type: 2}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 925247766}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9b5b45eb67df4081bb16508a4e8a690, type: 2}
   m_IsPrefabParent: 0
@@ -850,6 +855,11 @@ Prefab:
     - target: {fileID: 114209610118827356, guid: e7fcc84f3ed0f463197e13fd9300851f,
         type: 2}
       propertyPath: text
+      value: 
+      objectReference: {fileID: 1346885414}
+    - target: {fileID: 114209610118827356, guid: e7fcc84f3ed0f463197e13fd9300851f,
+        type: 2}
+      propertyPath: moneyText
       value: 
       objectReference: {fileID: 1346885414}
     m_RemovedComponents:

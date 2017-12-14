@@ -211,20 +211,18 @@ GameObject:
 --- !u!114 &53776984
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114098976039758824, guid: f274a4429f7b24118a0b83547953cd20,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 53776983}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b0d4edeaecf54a5393df9434c8f535b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3480d87b7e7bc4873abd1e5c7bc40f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 414967429}
   mesh: {fileID: 1903022671}
-  title: Hint!
-  message: "Not only George Clooney can see the world from above. If YOU look closley,
-    you could also see beyond the sky\u2026"
+  cam: {fileID: 414967431}
+  hintMessage: "Not only George Clooney can see the world from above. If YOU look
+    closley, you could also see beyond the sky\u2026"
 --- !u!33 &53776985
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -611,6 +609,11 @@ Prefab:
       propertyPath: text
       value: 
       objectReference: {fileID: 14606180}
+    - target: {fileID: 114209610118827356, guid: e7fcc84f3ed0f463197e13fd9300851f,
+        type: 2}
+      propertyPath: moneyText
+      value: 
+      objectReference: {fileID: 14606180}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7fcc84f3ed0f463197e13fd9300851f, type: 2}
   m_IsPrefabParent: 0
@@ -626,6 +629,7 @@ GameObject:
   - component: {fileID: 414967428}
   - component: {fileID: 414967427}
   - component: {fileID: 414967426}
+  - component: {fileID: 414967431}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -712,6 +716,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414967431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 414967425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09037475be30248919fc199378967b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!21 &610168365
 Material:
   serializedVersion: 6
@@ -753,9 +768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67caeeee70b24769857c79f4afa8988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 03_Coin_Game
   mesh: {fileID: 1877695611}
-  cam: {fileID: 414967429}
+  cam: {fileID: 414967431}
 --- !u!1 &745464198
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// Used for coins in the mini game
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,6 @@ public class DestroyByTime : MonoBehaviour {
 
 	public float time;
 
-	// Use this for initialization
 	void Start () {
 		Destroy (gameObject, time);
 	}

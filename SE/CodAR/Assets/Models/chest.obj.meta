@@ -1,33 +1,63 @@
 fileFormatVersion: 2
-guid: 6b343052ca88b134a913c17e83988778
-timeCreated: 1512567975
+guid: f23b34944e278466c8887844a229299d
+timeCreated: 1513171251
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: Body1
-    100002: Body2
-    100004: //RootNode
+    100002: Body10
+    100004: Body11
+    100006: Body8
+    100008: Body9
+    100010: //RootNode
     400000: Body1
-    400002: Body2
-    400004: //RootNode
+    400002: Body10
+    400004: Body11
+    400006: Body8
+    400008: Body9
+    400010: //RootNode
     2300000: Body1
-    2300002: Body2
+    2300002: Body10
+    2300004: Body11
+    2300006: Body8
+    2300008: Body9
     3300000: Body1
-    3300002: Body2
+    3300002: Body10
+    3300004: Body11
+    3300006: Body8
+    3300008: Body9
     4300000: Body1
-    4300002: Body2
+    4300002: Body10
+    4300004: Body11
+    4300006: Body8
+    4300008: Body9
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Body1Mat
-    second: {fileID: 2100000, guid: e20fe0cae6fc7ea498daf4e1105c6408, type: 2}
+      name: Body10Mat
+    second: {fileID: 2100000, guid: adee3fed087b14134b4740ab22ec9fb1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Body2Mat
-    second: {fileID: 2100000, guid: 62d4a80958f17494b9ea7d9fe533c979, type: 2}
+      name: Body11Mat
+    second: {fileID: 2100000, guid: bdc247953464e4c7fb9eea4f184b2250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body1Mat
+    second: {fileID: 2100000, guid: 9764f041db22544b2bcf2e3338a5ce12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body8Mat
+    second: {fileID: 2100000, guid: 4843e8e08722e4c1facacaacd00293f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body9Mat
+    second: {fileID: 2100000, guid: 77ba40a3573174d55ad60b3d1c59e0c3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

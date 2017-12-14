@@ -1,19 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; // Needs UI to interact with Text
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
-	public bool items;
-	public bool progression;
-	public int money;
+	//public bool items;
+	//public bool progression;
+
+	public int money; // local variable to display
 
 
-	public static int staticMoney;
+	private static int staticMoney; // keeps it's value between scenes, but not between executions
+	// This is merely a workaround! In a proper project I'd probably use a way to permanently save money!
 
-	public Text text;
+
+
+	public Text moneyText;
+
 
 
 
@@ -23,9 +28,9 @@ public class GameController : MonoBehaviour {
 		} else {
 			money = staticMoney;
 		};
-		text.text = money.ToString();
+		moneyText.text = money.ToString();
 
-		/*
+		/* Out of scope!
 		if (!PlayerPrefs.HasKey ("firstrun")) {
 			
 			PlayerPrefs.SetInt ("firstrun", 1);
@@ -72,11 +77,23 @@ public class GameController : MonoBehaviour {
 	}
 
 	*/
+	public void UpdateMoney(int value) {
+		money += value;
+		moneyText.text = money.ToString ();
+	}
+
 	public void SaveMoney() {
 		staticMoney = money;
 	}
 
-	
+
+	public static void SwitchToGame() {
+		SceneManager.LoadScene ("03_Coin_Game");
+	}
+
+	public static void SwitchToWorld() {
+		SceneManager.LoadScene ("01_World");
+	}
 
 
 

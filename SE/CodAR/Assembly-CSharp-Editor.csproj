@@ -56,19 +56,13 @@
      <None Include="Assets\Plugins\StansAssets\Modules\MobileNativePopUps\Documentation\ReadMe.txt" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.mm.txt" />
-     <None Include="Assets\Vuforia Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
-     <None Include="Assets\Vuforia Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
-     <None Include="Assets\Vuforia Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\Versions\MNP_VersionInfo.txt" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\mobile-native-popups.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\ARVenture.xml" />
-     <None Include="Assets\Vuforia Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\Vuforia Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
      <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\Android\mobile-native-popups.jar.txt" />
-     <None Include="Assets\Vuforia Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
