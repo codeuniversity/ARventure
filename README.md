@@ -1,3 +1,2 @@
 # ARventure
-This project is the forked version of the concluded demo made for CODE University, forked to make it easier for
-recruiters to find linked to my GitHub account.
+This was the project of group 5 in the 3rd Phase of the Orientation Semester of 2017
